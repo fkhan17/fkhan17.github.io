@@ -22,7 +22,7 @@ const darkModeToggle = document.getElementById("dark-mode-toggle");
 darkModeToggle.addEventListener("click", () => {
   const root = document.documentElement;
 
-  if (root.style.getPropertyValue("--bg-color") === "#f1f1f1") {
+  if (root.style.getPropertyValue("--bg-color") === "#fff") {
     // Color properties for dark mode
     root.style.setProperty("--primary-color", "#000000");
     root.style.setProperty("--secondary-color", "#36454f");
@@ -40,7 +40,7 @@ darkModeToggle.addEventListener("click", () => {
     root.style.setProperty("--primary-color", "#2980B9");
     root.style.setProperty("--secondary-color", "#99cfe3");
     root.style.setProperty("--accent", "#5c2b70");
-    root.style.setProperty("--text-color", "#000000");
+    root.style.setProperty("--text-color", "#333333");
     root.style.setProperty("--bg-color", "#fff");
     root.style.setProperty("--bg-color-2", "#fff");
     root.style.setProperty("--bg-color-3", "#fff");
