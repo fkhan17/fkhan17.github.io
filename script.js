@@ -41,11 +41,11 @@ darkModeToggle.addEventListener("click", () => {
     root.style.setProperty("--secondary-color", "#99cfe3");
     root.style.setProperty("--accent", "#5c2b70");
     root.style.setProperty("--text-color", "#000000");
-    root.style.setProperty("--bg-color", "#f1f1f1");
-    root.style.setProperty("--bg-color-2", "#dff2ef");
-    root.style.setProperty("--bg-color-3", "#f1f1f1");
-    root.style.setProperty("--bg-color-4", "#dff2ef");
-    root.style.setProperty("--bg-color-5", "#f1f1f1");
+    root.style.setProperty("--bg-color", "#fff");
+    root.style.setProperty("--bg-color-2", "#fff");
+    root.style.setProperty("--bg-color-3", "#fff");
+    root.style.setProperty("--bg-color-4", "#fff");
+    root.style.setProperty("--bg-color-5", "#fff");
     root.style.setProperty("--nav-text-color", "var(--nav-text-color-light)");
     darkModeToggle.textContent = "Dark Mode";
   }
